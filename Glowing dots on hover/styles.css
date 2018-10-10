@@ -1,0 +1,35 @@
+body
+{
+margin: 0px;
+padding: 0px;
+background-color: #091444;
+}
+ul
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+ul li{
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #4a4f69;
+    transition: .5s;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 50px;
+}
+ul li:hover{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(255, 255,255, 1),
+                0 0 20px rgba(255, 255,255, 1),
+                0 0 30px rgba(255, 255,255, 1),
+                0 0 0 10px rgba(255, 255,255, 0.05),
+                0 0 0 40px rgba(255, 255,255, 0.05),
+                0 0 0 30px rgba(255, 255,255, 0.05),
+                0 0 0 20px rgba(255, 255,255, 0.05);
+}
